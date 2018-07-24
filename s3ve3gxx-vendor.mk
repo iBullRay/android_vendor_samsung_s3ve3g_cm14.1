@@ -17,7 +17,7 @@
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
-    TimeService
+    libtime_genoff
 
 $(call inherit-product, vendor/samsung/s3ve3gxx/s3ve3gxx-vendor-blobs.mk)
 
