@@ -144,6 +144,13 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    $(VENDOR_PATH)/proprietary/bin/qseecomd:system/bin/qseecomd \	
+    $(VENDOR_PATH)/proprietary/lib/libwvm.so:system/vendor/lib/libwvm.so \	
+    $(VENDOR_PATH)/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \	
+    $(VENDOR_PATH)/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \	
+    $(VENDOR_PATH)/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \	
+    $(VENDOR_PATH)/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \	
+    $(VENDOR_PATH)/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     $(VENDOR_PATH)/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
     $(VENDOR_PATH)/proprietary/lib/hw/gps.msm8226.so:system/lib/hw/gps.msm8226.so \
     $(VENDOR_PATH)/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -173,8 +180,11 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     $(VENDOR_PATH)/proprietary/bin/irsc_util:system/bin/irsc_util \
     $(VENDOR_PATH)/proprietary/etc/sec_config:system/etc/sec_config \
+    $(VENDOR_PATH)/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \	
+    $(VENDOR_PATH)/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     $(VENDOR_PATH)/proprietary/bin/mpdecision:system/bin/mpdecision \
     $(VENDOR_PATH)/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
@@ -199,6 +209,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     $(VENDOR_PATH)/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     $(VENDOR_PATH)/proprietary/lib/libcordon.so:system/lib/libcordon.so \
+    $(VENDOR_PATH)/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     $(VENDOR_PATH)/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
     $(VENDOR_PATH)/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     $(VENDOR_PATH)/proprietary/lib/libril.so:system/lib/libril.so \
