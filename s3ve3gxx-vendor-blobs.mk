@@ -144,12 +144,12 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    $(VENDOR_PATH)/proprietary/bin/qseecomd:system/bin/qseecomd \	
-    $(VENDOR_PATH)/proprietary/lib/libwvm.so:system/vendor/lib/libwvm.so \	
-    $(VENDOR_PATH)/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \	
-    $(VENDOR_PATH)/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \	
-    $(VENDOR_PATH)/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \	
-    $(VENDOR_PATH)/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \	
+    $(VENDOR_PATH)/proprietary/bin/qseecomd:system/bin/qseecomd \
+    $(VENDOR_PATH)/proprietary/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     $(VENDOR_PATH)/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
     $(VENDOR_PATH)/proprietary/lib/hw/gps.msm8226.so:system/lib/hw/gps.msm8226.so \
@@ -183,7 +183,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-    $(VENDOR_PATH)/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \	
+    $(VENDOR_PATH)/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     $(VENDOR_PATH)/proprietary/bin/mpdecision:system/bin/mpdecision \
     $(VENDOR_PATH)/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
