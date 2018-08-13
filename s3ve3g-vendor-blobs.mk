@@ -182,7 +182,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     $(VENDOR_PATH)/proprietary/bin/mpdecision:system/bin/mpdecision \
-    $(VENDOR_PATH)/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
@@ -217,16 +217,22 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     $(VENDOR_PATH)/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so \
     $(VENDOR_PATH)/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
-    $(VENDOR_PATH)/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    $(VENDOR_PATH)/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     $(VENDOR_PATH)/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     $(VENDOR_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
     $(VENDOR_PATH)/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    $(VENDOR_PATH)/proprietary/vendor/lib/rfsa/adsp/libadsp_fd_skel.so:system/vendor/lib/rfsa/adsp/libadsp_fd_skel.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so:system/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
