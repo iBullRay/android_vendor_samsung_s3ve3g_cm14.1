@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    $(VENDOR_PATH)/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
     $(VENDOR_PATH)/proprietary/bin/btnvtool:system/bin/btnvtool \
     $(VENDOR_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     $(VENDOR_PATH)/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
