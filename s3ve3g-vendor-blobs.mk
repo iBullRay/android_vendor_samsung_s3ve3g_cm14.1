@@ -141,7 +141,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     $(VENDOR_PATH)/proprietary/bin/qseecomd:system/bin/qseecomd \
-    $(VENDOR_PATH)/proprietary/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
