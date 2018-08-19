@@ -149,11 +149,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     $(VENDOR_PATH)/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
-    $(VENDOR_PATH)/proprietary/lib/hw/gps.msm8226.so:system/lib/hw/gps.msm8226.so \
     $(VENDOR_PATH)/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    $(VENDOR_PATH)/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    $(VENDOR_PATH)/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    $(VENDOR_PATH)/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
