@@ -55,6 +55,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     $(VENDOR_PATH)/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     $(VENDOR_PATH)/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
+    $(VENDOR_PATH)/proprietary/lib/hw/gps.msm8226.so:system/lib/hw/gps.msm8226.so \
     $(VENDOR_PATH)/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so \
     $(VENDOR_PATH)/proprietary/lib/B08QT_libTs_J_Accm.so:system/lib/B08QT_libTs_J_Accm.so \
     $(VENDOR_PATH)/proprietary/lib/B08QT_libTs_J_Awb.so:system/lib/B08QT_libTs_J_Awb.so \
@@ -73,7 +74,10 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/lib/libchromatix_s5k6a3yx_vt_hd.so:system/lib/libchromatix_s5k6a3yx_vt_hd.so \
     $(VENDOR_PATH)/proprietary/lib/libcordon.so:system/lib/libcordon.so \
     $(VENDOR_PATH)/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
+    $(VENDOR_PATH)/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     $(VENDOR_PATH)/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    $(VENDOR_PATH)/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    $(VENDOR_PATH)/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     $(VENDOR_PATH)/proprietary/lib/libmmcamera_cac.so:system/lib/libmmcamera_cac.so \
     $(VENDOR_PATH)/proprietary/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so \
     $(VENDOR_PATH)/proprietary/lib/libmmcamera_fidelix_eeprom.so:system/lib/libmmcamera_fidelix_eeprom.so \
