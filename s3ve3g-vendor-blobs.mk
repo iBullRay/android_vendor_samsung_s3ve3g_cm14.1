@@ -17,7 +17,6 @@
 VENDOR_PATH := vendor/samsung/s3ve3g
 
 PRODUCT_COPY_FILES += \
-    $(VENDOR_PATH)/proprietary/app/com.qualcomm.location/com.qualcomm.location.apk:system/app/com.qualcomm.location/com.qualcomm.location.apk \
     $(VENDOR_PATH)/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     $(VENDOR_PATH)/proprietary/bin/btnvtool:system/bin/btnvtool \
     $(VENDOR_PATH)/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
@@ -42,7 +41,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     $(VENDOR_PATH)/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     $(VENDOR_PATH)/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    $(VENDOR_PATH)/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     $(VENDOR_PATH)/proprietary/etc/B08QT_imx175_module_info.xml:system/etc/B08QT_imx175_module_info.xml \
     $(VENDOR_PATH)/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     $(VENDOR_PATH)/proprietary/etc/E08QL_s5k4h5yb_module_info.xml:system/etc/E08QL_s5k4h5yb_module_info.xml \
@@ -55,7 +53,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     $(VENDOR_PATH)/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     $(VENDOR_PATH)/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
-    $(VENDOR_PATH)/proprietary/lib/hw/gps.msm8226.so:system/lib/hw/gps.msm8226.so \
+    $(VENDOR_PATH)/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(VENDOR_PATH)/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so \
     $(VENDOR_PATH)/proprietary/lib/B08QT_libTs_J_Accm.so:system/lib/B08QT_libTs_J_Accm.so \
     $(VENDOR_PATH)/proprietary/lib/B08QT_libTs_J_Awb.so:system/lib/B08QT_libTs_J_Awb.so \
@@ -176,7 +174,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    $(VENDOR_PATH)/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libmmcamera_image_stab.so:system/vendor/lib/libmmcamera_image_stab.so \
