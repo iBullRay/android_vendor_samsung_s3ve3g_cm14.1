@@ -222,6 +222,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
