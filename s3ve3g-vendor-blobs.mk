@@ -95,7 +95,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
     $(VENDOR_PATH)/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
     $(VENDOR_PATH)/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
-    $(VENDOR_PATH)/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
