@@ -95,6 +95,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
     $(VENDOR_PATH)/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
     $(VENDOR_PATH)/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -159,7 +160,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-    $(VENDOR_PATH)/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
@@ -233,6 +233,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L1.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    $(VENDOR_PATH)/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    $(VENDOR_PATH)/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     $(VENDOR_PATH)/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
